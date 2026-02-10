@@ -3,11 +3,9 @@ self.addEventListener('install', event => {
   event.waitUntil(
     caches.open('flow-reader-v1').then(cache => {
       return cache.addAll([
-        '/',
-        '/index.html',
-        '/manifest.webmanifest',
-        '/icon-192.png',
-        '/icon-512.png',
+        '/flow-reader/',
+        '/flow-reader/index.html',
+        '/flow-reader/manifest.webmanifest',
       ]);
     })
   );

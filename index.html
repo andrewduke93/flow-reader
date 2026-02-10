@@ -39,11 +39,10 @@
     <meta name="theme-color" content="#1a202c" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="apple-touch-icon" href="/icon-192.png">
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/service-worker.js');
+          navigator.serviceWorker.register('./service-worker.js');
         });
       }
     </script>
@@ -65,6 +64,7 @@
         color: inherit;
       }
     </style>
+
   <script type="importmap">
 {
   "imports": {
@@ -78,6 +78,7 @@
   }
 }
 </script>
+  <script type="module" crossorigin src="/flow-reader/assets/index-Wehe9mNL.js"></script>
 </head>
   <body>
     <div id="root"></div>
