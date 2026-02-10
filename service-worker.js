@@ -6,6 +6,8 @@ self.addEventListener('install', event => {
         '/flow-reader/',
         '/flow-reader/index.html',
         '/flow-reader/manifest.webmanifest',
+        '/flow-reader/icon-192.png',
+        '/flow-reader/icon-512.png',
       ]);
     })
   );
